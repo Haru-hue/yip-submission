@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .queue {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 45%;
+  }
+  
+  .queue h2 {
+    text-align: center;
+  }
+  
+  .queue-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .queue-table th, .queue-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .queue-table th {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Transportation Queue</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="logisticQueue" class="queue">
+        <h2>Logistic Queue</h2>
+        <table id="logisticTable" class="queue-table" draggable="true">
+          <tr>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Pick up Location</th>
+            <th>Drop-off Location</th>
+          </tr>
+        </table>
+      </div>
+      <div id="planner" class="queue">
+        <h2>Planner</h2>
+        <!-- Table for planner -->
+        <table id="plannerTable" class="queue-table"></table>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
